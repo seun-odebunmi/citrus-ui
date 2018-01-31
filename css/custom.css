@@ -1,0 +1,28 @@
+.bx--interior-left-nav--collapseable {
+  top: 3rem;
+}
+.bx--interior-left-nav--collapseable .bx--interior-left-nav-collapse {
+  margin-bottom: 3rem;
+}
+.bx--cloud-header-list__btn .bx--cloud-header__user-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+.bx--accordion__arrow {
+  margin: 0 0 0 3rem;
+}
+.bx--module .bx--module__header {
+  padding: 0.75rem 1rem;
+  background-color: #3d70b2;
+}
+.bx--module .bx--module__title {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 0.75rem;
+}
+.bx--module__header .bx--overflow-menu {
+  height: 1.55rem;
+  margin-left: 1rem;
+}
+.bx--module__header .bx--overflow-menu .bx--overflow-menu__icon {
+  fill: hsla(0, 0%, 100%, 0.7);
+}

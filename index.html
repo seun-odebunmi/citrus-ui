@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <title>Citrus</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet" />
+    <link href='https://unpkg.com/carbon-components@latest/css/carbon-components.min.css' rel='stylesheet prefetch' />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="https://unpkg.com/tachyons/css/tachyons.min.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
+
+<body class="bx--body">
+    <nav class="bx--cloud-header">
+        <div class="bx--cloud-header__wrapper">
+            <button class="bx--cloud-header__app-menu bx--interior-left-nav-collapse__link" type="button">
+                <svg fill-rule="evenodd" data-interior-left-nav-arrow>
+                    <title>citrus header menu</title>
+                    <path d="M0 0h20v2H0zm0 6h20v2H0zm0 6h20v2H0z" />
+                </svg>
+            </button>
+            <a href="#" class="bx--cloud-header-brand">
+                <div class="bx--cloud-header-brand__icon">
+                </div>
+                <h4 class="bx--cloud-header-brand__text">
+                    <span>Citrus</span>
+                </h4>
+            </a>
+            <ul class="bx--cloud-header-list">
+                <li class="bx--cloud-header-list__item">
+                    <a class="bx--cloud-header-list__link f7" href="#">Home</a>
+                    <a class="bx--cloud-header-list__link f7" href="#">Dashboard</a>
+                    <a class="bx--cloud-header-list__link f7" href="#">Help</a>
+                </li>
+            </ul>
+        </div>
+        <div class="bx--cloud-header__wrapper">
+            <ul class="bx--cloud-header-list">
+                <li class="bx--cloud-header-list__item bx--cloud-header-list__item--icon">
+                    <button class="bx--cloud-header-list__btn" type="button">
+                        <svg viewBox="0 0 16 16" fill-rule="evenodd">
+                            <title>search</title>
+                            <path d="M6 2c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4zm0-2C2.7 0 0 2.7 0 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zm10 13.8L13.8 16l-3.6-3.6 2.2-2.2z"
+                            />
+                            <path d="M16 13.8L13.8 16l-3.6-3.6 2.2-2.2z" />
+                        </svg>
+                    </button>
+                </li>
+                <li class="bx--cloud-header-list__item bx--cloud-header-list__item--icon">
+                    <div data-overflow-menu tabindex="0" aria-label="Overflow menu description" class="bx--overflow-menu bx--cloud-header-list__btn">
+                        <svg viewBox="0 0 16 16">
+                            <title>notifications</title>
+                            <path d="M9 1.11V0H7v1.11A5.022 5.022 0 0 0 3.1 4.9L1 14h5a2 2 0 0 0 4 0h5l-2.1-9.1A5.022 5.022 0 0 0 9 1.11z" />
+                        </svg>
+                        <ul class="bx--overflow-menu-options" tabindex="-1">
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn" data-floating-menu-primary-focus>Option 1</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn">Option 2</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn">Option 3</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn">Option 4</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option bx--overflow-menu-options__option--danger">
+                                <button class="bx--overflow-menu-options__btn">Danger option</button>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="bx--cloud-header-list__item bx--cloud-header-list__item--icon">
+                    <div data-overflow-menu tabindex="0" aria-label="Overflow menu description" class="bx--overflow-menu bx--cloud-header-list__btn">
+                        <svg class="bx--cloud-header__user-icon" viewBox="0 0 24 24">
+                            <title>user</title>
+                            <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.6 0 12 0zm0 4.6c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5 2.2-5 5-5zm7 14.5c-1.8 1.8-4.3 2.9-7 2.9s-5.2-1.1-7-2.9v-1.6c0-1.3.7-2 2-2h10c1.3 0 2 .7 2 2v1.6z"
+                            />
+                        </svg>
+                        <span class="white-90 ph2 f7">Charles Soetan</span>
+                        <ul class="bx--overflow-menu-options bx--overflow-menu--flip" tabindex="-1">
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn" data-floating-menu-primary-focus>Option 1</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn">Option 2</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn">Option 3</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option">
+                                <button class="bx--overflow-menu-options__btn">Option 4</button>
+                            </li>
+                            <li class="bx--overflow-menu-options__option bx--overflow-menu-options__option--danger">
+                                <button class="bx--overflow-menu-options__btn">Danger option</button>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav role="navigation" aria-label="Interior Left Navigation" data-interior-left-nav class="bx--interior-left-nav bx--interior-left-nav--collapseable pt0">
+        <ul data-dropdown data-value class="bx--dropdown mb3" tabindex="0">
+            <li class="bx--dropdown-text">Select Project</li>
+            <svg class="bx--dropdown__arrow" width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
+                <path d="M10 0L5 5 0 0z"></path>
+            </svg>
+            <li>
+                <ul class="bx--dropdown-list">
+                    <li data-option data-value="all" class="bx--dropdown-item">
+                        <a class="bx--dropdown-link" href="javascript:void(0)">Option 1</a>
+                    </li>
+                    <li data-option data-value="cloudFoundry" class="bx--dropdown-item">
+                        <a class="bx--dropdown-link" href="javascript:void(0)">Option 2</a>
+                    </li>
+                    <li data-option data-value="staging" class="bx--dropdown-item">
+                        <a class="bx--dropdown-link" href="javascript:void(0)">Option 3</a>
+                    </li>
+                    <li data-option data-value="dea" class="bx--dropdown-item">
+                        <a class="bx--dropdown-link" href="javascript:void(0)">Option 4</a>
+                    </li>
+                    <li data-option data-value="router" class="bx--dropdown-item">
+                        <a class="bx--dropdown-link" href="javascript:void(0)">Option 5</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <ul data-accordion class="bx--accordion">
+            <li data-accordion-item class="bx--accordion__item">
+                <button class="bx--accordion__heading" aria-expanded="false" aria-controls="pane1">
+                    <p class="bx--accordion__title b f6">DATA SOURCES</p>
+                    <svg class="bx--accordion__arrow" width="8" height="12" viewBox="0 0 8 12" fill-rule="evenodd">
+                        <path d="M0 10.6L4.7 6 0 1.4 1.4 0l6.1 6-6.1 6z"></path>
+                    </svg>
+
+                </button>
+                <div id="pane1" class="bx--accordion__content pa0 pt0 bt b--light-gray">
+                    <div data-search class="bx--search bx--search--sm" role="search">
+                        <svg class="bx--search-magnifier" width="16" height="16" viewBox="0 0 16 16" fill-rule="evenodd">
+                            <path d="M6 2c2.2 0 4 1.8 4 4s-1.8 4-4 4-4-1.8-4-4 1.8-4 4-4zm0-2C2.7 0 0 2.7 0 6s2.7 6 6 6 6-2.7 6-6-2.7-6-6-6zM16 13.8L13.8 16l-3.6-3.6 2.2-2.2z"></path>
+                            <path d="M16 13.8L13.8 16l-3.6-3.6 2.2-2.2z"></path>
+                        </svg>
+                        <label id="search-input-label-1" class="bx--label" for="search__input-2">Filter Datasources</label>
+                        <input class="bx--search-input" type="text" id="search__input-2" role="search" placeholder="Filter Datasources" aria-labelledby="search-input-label-1">
+                        <svg class="bx--search-close bx--search-close--hidden" width="16" height="16" viewBox="0 0 16 16" fill-rule="evenodd">
+                            <path d="M8 0C3.6 0 0 3.6 0 8s3.6 8 8 8 8-3.6 8-8-3.6-8-8-8zm3.5 10.1l-1.4 1.4L8 9.4l-2.1 2.1-1.4-1.4L6.6 8 4.5 5.9l1.4-1.4L8 6.6l2.1-2.1 1.4 1.4L9.4 8l2.1 2.1z"></path>
+                        </svg>
+                    </div>
+                    <ul role="menubar" class="left-nav-list mt2" data-interior-left-nav-list aria-hidden="false">
+                        <li role="menuitem" tabindex="0" class="left-nav-list__item left-nav-list__item--has-children" data-interior-left-nav-item
+                            data-interior-left-nav-with-children>
+                            <a class="left-nav-list__item-link">
+                                <span class="b">NSIO DB</span>
+                                <div class="left-nav-list__item-icon">
+                                    <svg class="bx--interior-left-nav__icon" width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
+                                        <path d="M10 0L5 5 0 0z"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                            <ul role="menu" aria-hidden="true" class="left-nav-list left-nav-list--nested" data-interior-left-nav-nested-list>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1A" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Users</a>
+                                </li>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1B" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Profiles</a>
+                                </li>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1C" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Programs</a>
+                                </li>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1D" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Beneficiaries</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li role="menuitem" tabindex="0" class="left-nav-list__item left-nav-list__item--has-children" data-interior-left-nav-item
+                            data-interior-left-nav-with-children>
+                            <a class="left-nav-list__item-link">
+                                <span class="b">CBR DB</span>
+                                <div class="left-nav-list__item-icon">
+                                    <svg class="bx--interior-left-nav__icon" width="10" height="5" viewBox="0 0 10 5" fill-rule="evenodd">
+                                        <path d="M10 0L5 5 0 0z"></path>
+                                    </svg>
+                                </div>
+                            </a>
+                            <ul role="menu" aria-hidden="true" class="left-nav-list left-nav-list--nested" data-interior-left-nav-nested-list>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1A" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Users</a>
+                                </li>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1B" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Profiles</a>
+                                </li>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1C" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Programs</a>
+                                </li>
+                                <li class="left-nav-list__item" data-interior-left-nav-nested-item role="menuitem" tabindex="-1">
+                                    <a href="#example-item-1D" class="left-nav-list__item-link" data-interior-left-nav-item-link tabindex="-1">Beneficiaries</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <div class="bx--interior-left-nav-collapse" data-interior-left-nav-collapse>
+            <a class="bx--interior-left-nav-collapse__link" href="#">
+                <svg class="bx--interior-left-nav-collapse__arrow" width="8" height="12" viewBox="0 0 8 12" fill-rule="evenodd" data-interior-left-nav-arrow>
+                    <title>Collapse nav pane</title>
+                    <path d="M7.5 10.6L2.8 6l4.7-4.6L6.1 0 0 6l6.1 6z"></path>
+                </svg>
+            </a>
+        </div>
+    </nav>
+    <div class="container ml7">
+        <div class="bx--grid">
+            <div class="bx--row">
+                <div class="bx--col-xs-12 ">
+                    <div class="bx--module bx--module--double mt2">
+                        <div class="bx--module__inner">
+                            <div class="bx--module__header bg-blue br2 br--top pv2">
+                                <p class="bx--module__title bx--type-alpha white-90">Select Actions</p>
+                                <div data-overflow-menu tabindex="0" aria-label="Overflow menu description" class="bx--overflow-menu">
+                                    <svg class="bx--overflow-menu__icon" width="4" height="20" viewBox="0 0 4 20" fill-rule="evenodd">
+                                        <circle cx="2" cy="2" r="2"></circle>
+                                        <circle cx="2" cy="10" r="2"></circle>
+                                        <circle cx="2" cy="18" r="2"></circle>
+                                    </svg>
+                                    <ul class="bx--overflow-menu-options" tabindex="-1">
+                                        <li class="bx--overflow-menu-options__option">
+                                            <button class="bx--overflow-menu-options__btn" data-floating-menu-primary-focus>Option 1</button>
+                                        </li>
+                                        <li class="bx--overflow-menu-options__option">
+                                            <button class="bx--overflow-menu-options__btn">Option 2</button>
+                                        </li>
+                                        <li class="bx--overflow-menu-options__option">
+                                            <button class="bx--overflow-menu-options__btn">Option 3</button>
+                                        </li>
+                                        <li class="bx--overflow-menu-options__option">
+                                            <button class="bx--overflow-menu-options__btn">Option 4</button>
+                                        </li>
+                                        <li class="bx--overflow-menu-options__option bx--overflow-menu-options__option--danger">
+                                            <button class="bx--overflow-menu-options__btn">Danger option</button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="bx--module__content bx--module__content--centered">
+                                <p>
+                                    Example centered content
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/carbon-components@latest/scripts/carbon-components.min.js"></script>
+</body>
+
+</html>
